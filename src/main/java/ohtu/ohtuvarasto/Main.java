@@ -54,5 +54,10 @@ public class Main {
         saatiin = mehua.otaVarastosta(-32.9);
         System.out.println("saatiin " + saatiin);
         System.out.println("Mehuvarasto: " + mehua);
+        
+        System.out.println("");
+        System.out.println("Tasataan vielä saldo!");
+        System.out.println("Otetaan mehuvarastosta " + mehua.otaVarastosta(7.56));
+        System.out.println("Mehuvarasto: " + mehua);
     }
 }
