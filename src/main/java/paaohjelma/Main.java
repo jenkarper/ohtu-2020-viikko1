@@ -14,6 +14,7 @@ public class Main {
         System.out.println("Olutvarasto: " + olutta);
         
         mehua.otaVarastosta(20.0);
+        olutta.otaVarastosta(10.2);
     }
 }
 
@@ -40,7 +41,7 @@ public class Main {
 //        System.out.println(huono);
 //
 //        System.out.println("Olutvarasto: " + olutta);
-//        System.out.println("olutta.lisaaVarastoon(1000.0)");
+//        System.out.println("olu;tta.lisaaVarastoon(1000.0)");
 //        olutta.lisaaVarastoon(1000.0);
 //        System.out.println("Olutvarasto: " + olutta);
 //
