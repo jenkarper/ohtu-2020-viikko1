@@ -12,6 +12,8 @@ public class Main {
         System.out.println("Luonnin jälkeen varastoissa on:");
         System.out.println("Mehuvarasto: " + mehua);
         System.out.println("Olutvarasto: " + olutta);
+        
+        mehua.otaVarastosta(20.0);
     }
 }
 
