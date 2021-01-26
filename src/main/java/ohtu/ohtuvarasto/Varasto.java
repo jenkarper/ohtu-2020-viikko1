@@ -73,4 +73,11 @@ public class Varasto {
     public String toString() {
         return ("saldo = " + saldo + ", vielä tilaa " + paljonkoMahtuu());
     }
+    
+    public double laskeYlijaama(double maara) {
+        if (maara > paljonkoMahtuu()) {
+            return maara - paljonkoMahtuu();
+        }
+        return 0;
+    }
 }
