@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ohtu.ohtuvarasto;
 
-/**
- *
- * @author pertjenn
- */
 public class Kanisteri {
+    private double tilavuus;
+    private double saldo;
     
+    public Kanisteri(double tilavuus, double saldo) {
+        this.tilavuus = tilavuus;
+        this.saldo = saldo;
+    }
 }
