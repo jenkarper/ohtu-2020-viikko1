@@ -15,6 +15,7 @@ public class Main {
         
         mehua.otaVarastosta(20.0);
         olutta.otaVarastosta(10.2);
+        System.out.println("Valmista!");
     }
 }
 
